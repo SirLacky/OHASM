@@ -8,7 +8,8 @@
 </head>
 <body>
 <h1>Welcome on Main Page</h1>
-
+<button><a href="/employee-list">Employee List</a></button><br>
+<button><a href="/add-employee">Add Employee</a></button><br>
 <button><a href="/logout">Log out</a></button><br>
 </body>
 </html>

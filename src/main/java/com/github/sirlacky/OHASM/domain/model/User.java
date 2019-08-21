@@ -6,6 +6,8 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 @Entity
@@ -23,6 +25,8 @@ public class User {
     private String username;
     @Column(nullable = false)
     private String password;
+    @OneToMany
+    private List<Employee> employees = new ArrayList<>();
 
 
     @Override
